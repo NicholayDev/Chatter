@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS users (
     created_at date NOT NULL
 );
 
-CREATE TABLE IF NOT EXISTS refresh_token (
+CREATE TABLE IF NOT EXISTS refresh_tokens (
     refresh_token_id serial primary key,
     token text not null
 );
