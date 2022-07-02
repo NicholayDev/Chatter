@@ -1,4 +1,4 @@
 # DATABASE RULES
 
-- Database name must be plural
+- Database table name must be plural
 - The primary key must be formatted like this "table_name + id" => user_id
